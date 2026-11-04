@@ -20,7 +20,9 @@ The analysis workflow is intended to process Illumina paired-end FASTQ reads fro
 - Spoligotype international type (SIT) and MTBC family assignments
 - Quality-control and analysis reports
 
-**Important:** Assignment results depend on the reference databases and analysis logic embedded in or accessed by the notebook. Consult the notebook and the user manual for the exact behavior of version 8.
+**Important:** **SITVIT lookup limitation:** The notebook explicitly describes its embedded SITVIT dictionary as a *trimmed* subset of the original dictionary. Consequently, an unmatched octal profile does **not** by itself establish a novel SIT or lineage. Confirm dictionary coverage and independently verify critical SIT/family assignments before publication or surveillance use. See [VALIDATION.md](VALIDATION.md) for the repository audit.
+
+Assignment results depend on the reference databases and analysis logic embedded in or accessed by the notebook. Consult the notebook and the user manual for the exact behavior of version 8.
 
 ## Getting started
 
@@ -32,7 +34,9 @@ The analysis workflow is intended to process Illumina paired-end FASTQ reads fro
 
 The repository includes a `HiSpoT_fastq_files_for_validation/` directory intended for example/validation data. Confirm the contents, data-sharing permissions, and expected results before using them for formal benchmarking.
 
-**Environment:** Google Colab / Python. Exact dependency versions and runtime requirements have not yet been independently verified; use the notebook's documented setup rather than assuming specific package versions.
+**Environment:** Google Colab / Python. The notebook installs `tqdm`, `openpyxl`, `ipyfilechooser`, and `pyahocorasick` (with a fallback scanner if the latter is unavailable); it also imports `pandas` and uses Colab's Google Drive integration. Exact dependency versions have not been pinned or independently tested.
+
+**Outputs:** The notebook writes timestamped results under `MyDrive/HiSpoT_Fastq/`, including `clinical_spoligotyping_results.xlsx` and `.txt`.
 
 ## Scope and limitations
 
