@@ -18,9 +18,13 @@ The current notebook embeds a reduced SITVIT octal-to-SIT/family lookup dictiona
 
 **Maintainer decision (2026-11-04):** Release v8.0 with the existing **trimmed SITVIT dictionary**. Do not restore or expand the reference dictionary for this release. Missing SIT/family assignments may reflect limited dictionary coverage, not novel biological profiles. This decision does not replace the remaining execution and data-sharing checks.
 
+## Maintainer-reported runtime validation
+
+The maintainer reports that the HiSpoT v8 notebook has been successfully tested multiple times in Google Colab. This is a **maintainer-reported validation**, not an independently reproduced execution in this repository audit. Run logs, expected-output fixtures, and environment snapshots have not been supplied for independent verification.
+
 ## Still requiring verification
 
-- End-to-end execution in a fresh Google Colab runtime.
+- Independent reproduction of an end-to-end run in a fresh Google Colab runtime (maintainer reports multiple successful Colab runs).
 - Availability and privacy/licensing review of example FASTQ files.
 - Reproduction of expected binary, octal, SIT, family, and QC results on reference samples.
 - Agreement of the user manual with the current v8 notebook and parameters.
@@ -30,4 +34,4 @@ The current notebook embeds a reduced SITVIT octal-to-SIT/family lookup dictiona
 
 ## Release decision
 
-**Not yet independently validated for archival release.** Documentation preparation is complete in part; the items above remain open. No claim of successful execution, benchmark reproduction, DOI assignment, or GitHub Release creation is made here.
+**Maintainer-reported Colab validation completed; independent verification and data-sharing review remain open.** No claim of independently reproduced benchmarks, DOI assignment, or GitHub Release creation is made here.
