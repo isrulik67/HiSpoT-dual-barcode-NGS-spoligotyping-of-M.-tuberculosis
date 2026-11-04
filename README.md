@@ -20,7 +20,7 @@ The analysis workflow is intended to process Illumina paired-end FASTQ reads fro
 - Spoligotype international type (SIT) and MTBC family assignments
 - Quality-control and analysis reports
 
-**Important:** **SITVIT lookup limitation:** The notebook explicitly describes its embedded SITVIT dictionary as a *trimmed* subset of the original dictionary. Consequently, an unmatched octal profile does **not** by itself establish a novel SIT or lineage. Confirm dictionary coverage and independently verify critical SIT/family assignments before publication or surveillance use. See [VALIDATION.md](VALIDATION.md) for the repository audit.
+**Important:** **SITVIT lookup limitation (intentional in v8.0):** The maintainer has chosen to distribute the existing *trimmed* SITVIT dictionary, rather than the full original dictionary. Consequently, an unmatched octal profile does **not** by itself establish a novel SIT or lineage. Confirm dictionary coverage and independently verify critical SIT/family assignments before publication or surveillance use. See [VALIDATION.md](VALIDATION.md) for the repository audit.
 
 Assignment results depend on the reference databases and analysis logic embedded in or accessed by the notebook. Consult the notebook and the user manual for the exact behavior of version 8.
 
