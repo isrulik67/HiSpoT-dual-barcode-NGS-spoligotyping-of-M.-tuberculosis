@@ -1,13 +1,20 @@
 # Changelog
 
-## [8.0] — release preparation
+## [8.1] — dual software distribution (release preparation)
 
-- Documented the existing HiSpoT v8 Google Colab analysis notebook for scientific distribution.
-- Added software citation metadata covering the nine manuscript authors.
-- Expanded repository documentation, including research context, usage orientation, limitations, and citation guidance.
-- Retained the existing analysis notebook and algorithms without modification.
-- Maintainer confirmed that v8.0 intentionally ships with the trimmed SITVIT lookup dictionary; unmatched profiles require external verification.
+- Added the original object-oriented `Spoligotyping_MTBC_gcl` notebook, two Python modules and Excel template alongside the later VIBE-coded v8 notebook.
+- Organized the original modules and template into the folder expected by its Colab instructions.
+- Updated repository and package documentation to describe both implementations.
+- Confirmed MIT as the project-owned software license; retained provenance and third-party-rights caveats.
+- Preserved both implementations' analysis source without algorithm changes.
+- Prepared `RELEASE_NOTES_v8.1.md` for the upcoming GitHub release.
 
-**Release status:** These notes describe the proposed v8.0 documentation package. They do not establish that a GitHub release or version tag has been published.
+**Status:** v8.1 release notes are prepared; this entry alone does not create a GitHub Release or tag.
 
-**Validation note:** Dependencies, example FASTQ contents, and end-to-end reproduction of results require verification before an archival release.
+## [8.0] — published 2026-11-04
+
+- Released the existing HiSpoT v8 Google Colab notebook with scientific documentation and citation metadata.
+- Documented the intentionally trimmed SITVIT lookup dictionary and the need for external verification of unmatched profiles.
+- Retained the existing notebook and algorithm without modification.
+
+[8.0]: https://github.com/isrulik67/HiSpoT-dual-barcode-NGS-spoligotyping-of-M.-tuberculosis/releases/tag/v8.0
