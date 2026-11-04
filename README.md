@@ -12,7 +12,12 @@ The manuscript describes a dual-barcode primer approach for multiplexing up to 9
 
 ## Software
 
-This repository contains the Google Colab notebook **`HiSpoT_Spoligotyping_v8_ready.ipynb`**, the condensed HiSpoT v8 analysis workflow. The accompanying manuscript also describes **Spoligotyping_MTBC_gcl**, a separate analysis tool; its availability in this repository should not be assumed.
+This repository provides **both** software implementations described in the manuscript:
+
+- **[Spoligotyping_MTBC_gcl](Spoligotyping_MTBC_gcl/)** — the original object-oriented Google Colab notebook developed by Paul J. Freidlin, with two Python modules and an Excel template in its `spo_software_modules_and_template_file/` subdirectory.
+- **[`HiSpoT_Spoligotyping_v8_ready.ipynb`](HiSpoT_Spoligotyping_v8_ready.ipynb)** — the later VIBE-coded, condensed Google Colab implementation.
+
+Both implementations are distributed under the repository MIT license (subject to third-party rights); see [LICENSING_AND_PERMISSIONS.md](LICENSING_AND_PERMISSIONS.md). The original OOP software was added after the historical `v8.0` tag and is therefore available on `main`, not in that release snapshot.
 
 The analysis workflow is intended to process Illumina paired-end FASTQ reads from HiSpoT assays or WGS and generate, as supported by the notebook:
 
