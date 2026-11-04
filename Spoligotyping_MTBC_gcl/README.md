@@ -9,6 +9,10 @@ This is the original object-oriented spoligotyping analysis implementation by **
 - `spo_software_modules_and_template_file/crispr_search_ver1_1_gcl.py`: CRISPR spacer analysis module.
 - `spo_software_modules_and_template_file/clinical_lab_results.xlsx`: Excel template.
 
+## GitHub layout
+
+The three supporting files are stored in `spo_software_modules_and_template_file/` in this repository, matching the directory name required by the original Colab notebook. Download this directory with its three files and copy it to Google Drive as described below. The notebook is kept one level above it. No algorithm or notebook code was changed during reorganization.
+
 ## Setup (as described in the original notebook)
 
 1. Mount Google Drive in Colab.
