@@ -16,7 +16,7 @@ This document records a **static source inspection** of `HiSpoT_Spoligotyping_v8
 
 The current notebook embeds a reduced SITVIT octal-to-SIT/family lookup dictionary. A valid binary/octal spoligotype can therefore lack an SIT/family assignment simply because its entry is absent. **Do not interpret an unassigned profile as a novel spoligotype or a new lineage without checking against a complete, curated reference.**
 
-Before archival publication, decide whether to (a) restore the complete authorized dictionary and validate assignments, or (b) clearly release the subset as a documented limitation. Any dictionary update should be separately versioned and validated; the notebook was not modified during this documentation pass.
+**Maintainer decision (2026-11-04):** Release v8.0 with the existing **trimmed SITVIT dictionary**. Do not restore or expand the reference dictionary for this release. Missing SIT/family assignments may reflect limited dictionary coverage, not novel biological profiles. This decision does not replace the remaining execution and data-sharing checks.
 
 ## Still requiring verification
 
@@ -25,7 +25,7 @@ Before archival publication, decide whether to (a) restore the complete authoriz
 - Reproduction of expected binary, octal, SIT, family, and QC results on reference samples.
 - Agreement of the user manual with the current v8 notebook and parameters.
 - Verification of dependency compatibility and any third-party database redistribution rights.
-- Confirmation of the manuscript author list and final publication metadata before archiving.
+- Addition of final journal/DOI metadata when available (not required for an initial software release).
 - Confirmation that the intended v8.0 tag points to the reviewed notebook and documentation commit.
 
 ## Release decision
