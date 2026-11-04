@@ -25,7 +25,7 @@ The maintainer reports that the HiSpoT v8 notebook has been successfully tested 
 ## Still requiring verification
 
 - Independent reproduction of an end-to-end run in a fresh Google Colab runtime (maintainer reports multiple successful Colab runs).
-- Availability and privacy/licensing review of example FASTQ files.
+- Example FASTQ privacy: the maintainer confirms that the included example FASTQ files contain no patient information. Independent inspection of file contents and confirmation of redistribution permissions have not been performed.
 - Reproduction of expected binary, octal, SIT, family, and QC results on reference samples.
 - Agreement of the user manual with the current v8 notebook and parameters.
 - Verification of dependency compatibility and any third-party database redistribution rights.
@@ -34,4 +34,4 @@ The maintainer reports that the HiSpoT v8 notebook has been successfully tested 
 
 ## Release decision
 
-**Maintainer-reported Colab validation completed; independent verification and data-sharing review remain open.** No claim of independently reproduced benchmarks, DOI assignment, or GitHub Release creation is made here.
+**Maintainer-reported Colab validation and absence of patient information in example FASTQs confirmed. Independent reproducibility and redistribution-rights checks remain open.** No claim of independently reproduced benchmarks, DOI assignment, or GitHub Release creation is made here.
