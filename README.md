@@ -70,7 +70,9 @@ This repository is a research tool, not a standalone clinical diagnostic device.
 
 **Manuscript preprint (bioRxiv, posted 2026-11-05):** Freidlin, P. J., et al. *HiSpoT: a novel one-tube dual-barcode PCR method for NGS spoligotyping amplicon library preparation in Mycobacterium tuberculosis complex.* **DOI:** [10.1101/2026.11.04.764218](https://doi.org/10.1101/2026.11.04.764218). [Read the preprint PDF](https://www.biorxiv.org/content/biorxiv/early/2026/11/05/2026.11.04.764218.full.pdf).
 
-The bioRxiv DOI identifies the **manuscript**, not the software release. Cite the software separately using [`CITATION.cff`](CITATION.cff) and the Zenodo software archive DOI where applicable. The preprint has not been identified here as a peer-reviewed journal publication.
+**Software archive (Zenodo):** [10.5281/zenodo.23948119](https://doi.org/10.5281/zenodo.23948119). **GitHub release:** [HiSpoT v8.1 — Dual Software Release](https://github.com/isrulik67/HiSpoT-dual-barcode-NGS-spoligotyping-of-M.-tuberculosis/releases/tag/v8.1).
+
+The bioRxiv DOI identifies the **manuscript**; the Zenodo DOI was supplied for the **software archive**. The Zenodo record's version-specific versus concept DOI status has not been independently verified here. Cite the software and manuscript separately. The bioRxiv posting is a preprint, not a peer-reviewed journal publication.
 
 ## License
 
