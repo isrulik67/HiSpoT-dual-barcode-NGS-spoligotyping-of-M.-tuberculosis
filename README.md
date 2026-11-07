@@ -66,9 +66,11 @@ This repository is a research tool, not a standalone clinical diagnostic device.
 
 **Correspondence:** Israel Nissan, PhD — israel.nissan@gmail.com
 
-## Citation
+## Publication and citation
 
-Please cite the accompanying manuscript when its bibliographic details become available. Until then, cite the software repository using the metadata in [`CITATION.cff`](CITATION.cff). A journal, DOI, or manuscript publication date has not yet been assigned in this repository's citation metadata.
+**Manuscript preprint (bioRxiv, posted 2026-11-05):** Freidlin, P. J., et al. *HiSpoT: a novel one-tube dual-barcode PCR method for NGS spoligotyping amplicon library preparation in Mycobacterium tuberculosis complex.* **DOI:** [10.1101/2026.11.04.764218](https://doi.org/10.1101/2026.11.04.764218). [Read the preprint PDF](https://www.biorxiv.org/content/biorxiv/early/2026/11/05/2026.11.04.764218.full.pdf).
+
+The bioRxiv DOI identifies the **manuscript**, not the software release. Cite the software separately using [`CITATION.cff`](CITATION.cff) and the Zenodo software archive DOI where applicable. The preprint has not been identified here as a peer-reviewed journal publication.
 
 ## License
 
