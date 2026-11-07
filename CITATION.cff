@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use HiSpoT software, cite its Zenodo archive (DOI: 10.5281/zenodo.23948119) and the associated bioRxiv preprint (DOI: 10.1101/2026.11.04.764218)."
+message: "If you use HiSpoT software, cite its Zenodo archive (DOI: 10.5281/zenodo.23948119) and the associated bioRxiv preprint (DOI: 10.64898/2026.11.04.764218)."
 type: software
 title: "HiSpoT: dual-barcode NGS spoligotyping analysis of Mycobacterium tuberculosis complex"
 version: "8.1"
@@ -38,8 +38,8 @@ keywords:
 preferred-citation:
   type: article
   title: "HiSpoT: a novel one-tube dual-barcode PCR method for NGS spoligotyping amplicon library preparation in Mycobacterium tuberculosis complex"
-  doi: "10.1101/2026.11.04.764218"
-  url: "https://doi.org/10.1101/2026.11.04.764218"
+  doi: "10.64898/2026.11.04.764218"
+  url: "https://doi.org/10.64898/2026.11.04.764218"
   year: 2026
   authors:
     - family-names: Freidlin
